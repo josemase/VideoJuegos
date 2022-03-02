@@ -18,7 +18,7 @@ public class SuperDisparo : MonoBehaviour
     void Update()
     {
         
-            nextFire = Time.time + fireRate;
+            
             //Instantiate(projectile, transform.position, transform.rotation);
             //Debug.Log(Time.time);
         

@@ -66,8 +66,8 @@ public class Animal : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Colisionando con:");
-        Debug.Log(collision.gameObject.name);
+       // Debug.Log("Colisionando con:");
+       // Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name.Equals("bullet(Clone)")) 
         {   
             Destroy(collision.gameObject);

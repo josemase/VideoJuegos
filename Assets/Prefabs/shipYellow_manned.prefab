@@ -97,3 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   bullet: {fileID: 3503890433074043445, guid: b85d8ef72e6983b4baf82fe389029245, type: 3}
+  SuperDisparo: {fileID: 0}
+  Carga: {fileID: 9179294796049194255, guid: fc0d1faafc08b0042a3b64a57525332c, type: 3}
+  fireRateb: 0
+  fireRateB: 0

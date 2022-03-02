@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3000EDC3-E9B6-AFE3-CCD6-F7B8312AA6CF}</ProjectGuid>
+    <ProjectGuid>{D0B8BE9B-3578-88D6-4851-8D66DDCCF1BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,11 +53,12 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SuperDisparo.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
     <Compile Include="Assets\Scripts\Animal.cs" />
-    <Compile Include="Assets\Scripts\SuperDisparo.cs" />
+    <Compile Include="Assets\Scripts\Carga.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
